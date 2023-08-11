@@ -1068,6 +1068,9 @@ a.footer__link:is(:hover, :focus-visible) {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
   }
+  .whyus .whyus__left img {
+    object-fit: cover;
+  }
   .whyus__right {
     padding-inline: 1rem;
   }
